@@ -1,11 +1,12 @@
 import "./App.css";
 import Row from "./Row";
-import requests from "./requests";
+import { requests } from "./Requests";
+import Banner from "./Banner";
 
 function App() {
   return (
     <div className="App">
-      
+      <Banner />
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
@@ -19,6 +20,7 @@ function App() {
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
       <Row title="Documentaries" fetchUrl={requests.fetcDocumentaries} />
     </div>
+    
   );
 }
 
