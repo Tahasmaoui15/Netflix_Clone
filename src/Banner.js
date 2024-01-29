@@ -25,12 +25,11 @@ function Banner() {
         "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"
     )`,
         backgroundPosition: "center center",
-        backgroundColor:"red"
       }}
     >
       <div className="banner__contents">
         <h1>{movie?.title || movie?.name || movie?.original_name}</h1>
-        
+
         <div className="banner__buttons">
           <button className="banner__button">Play</button>
           <button className="banner__button">My List</button>
