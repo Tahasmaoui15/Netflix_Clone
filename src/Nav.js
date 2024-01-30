@@ -1,11 +1,12 @@
 import React from "react";
+import "./Nav.css";
 
 function Nav() {
   return (
     <div className="nav">
       <img
         className="nav__logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/1/15/Logonfx.png"
+        src="https://www.freepnglogos.com/uploads/netflix-logo-history-32.png"
         alt="Netflix Logo"
       />
 
