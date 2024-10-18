@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "./axios";
-import { requests, getRandom } from "./Requests";
+import { requests, getRandom } from "./requests";
 import "./Banner.css";
 
 function Banner() {
